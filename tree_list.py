@@ -42,7 +42,6 @@ def buildTree():
     setRightChild(getLeftChild(tree), 'd')
     setLeftChild(getRightChild(tree), 'e')
     setRightChild(getRightChild(tree), 'f')
-    print tree
     return tree
 
 ttree = buildTree()
